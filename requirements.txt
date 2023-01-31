@@ -1,0 +1,12 @@
+playwright
+pytest-playwright
+pytest
+pytest-html
+pytest-rerunfailures
+seldom
+
+anyio
+pytest-asyncio
+pytest-tornasync
+pytest-trio
+pytest-twisted

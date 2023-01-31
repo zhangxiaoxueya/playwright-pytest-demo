@@ -1,0 +1,11 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 31 17:12:14 CST 2023","Tue Jan 31 17:12:19 CST 2023","4510","","pytest","","test_case.test_baidu.TestBaidu","","test_baidu_001",""
+"passed","Tue Jan 31 17:12:16 CST 2023","Tue Jan 31 17:12:19 CST 2023","2733","test_case","test_baidu","TestBaidu","","","test_baidu_001","
+        名称：百度搜索""playwright""
+        步骤：
+        1、打开浏览器
+        2、输入""playwright""关键字
+        3、点击搜索按钮
+        检查点：
+        * 检查页面标题是否相等。
+        "
