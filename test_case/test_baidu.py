@@ -74,6 +74,7 @@ class TestBaidu():
          ],
         ids=["case1", "case2", "case3"]
     )
+    @allure.story("test004-参数化")
     def test_baidu_004(self, name, search_key, page, base_url):
         page.goto(base_url)
         page.type(BaiduElem.search_input, search_key)
@@ -85,26 +86,9 @@ class TestBaidu():
 
     @pytest.mark.parametrize(
         "name, search_key",
-        [("1", "Selenium"),
-         ("2", "pytest文档"),
-         ("3", "pytest-html"),
-         ],
-        ids=["case1", "case2", "case3"]
-    )
-    @allure.story("test001-参数化1")
-    def test_baidu_005(self, name, search_key, page, base_url):
-        page.goto(base_url)
-        page.type(BaiduElem.search_input, search_key)
-        page.click(BaiduElem.search_button)
-        sleep(2)
-        assert page.title() == search_key + "_百度搜索"
-
-
-    @pytest.mark.parametrize(
-        "name, search_key",
         json_to_list(data_path + "/data_file.json")
     )
-    @allure.story("test002-参数化2")
+    @allure.story("test005-文件读取参数化")
     def test_baidu_006(self, name, search_key, page, base_url):
         page.goto(base_url)
         page.type(BaiduElem.search_input, search_key)

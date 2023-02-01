@@ -1,0 +1,35 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Feb 01 11:00:01 CST 2023","Wed Feb 01 11:00:04 CST 2023","2787","","pytest","","test_case.test_baidu.TestBaidu","","test_baidu_004[case2]",""
+"passed","Wed Feb 01 11:00:01 CST 2023","Wed Feb 01 11:00:03 CST 2023","2442","","pytest","","test_case.test_baidu.TestBaidu","","test_baidu_004[case3]",""
+"passed","Wed Feb 01 11:00:09 CST 2023","Wed Feb 01 11:00:11 CST 2023","2345","test_case","test_baidu","TestBaidu","","","test_baidu_004[case1]",""
+"passed","Wed Feb 01 11:00:16 CST 2023","Wed Feb 01 11:00:19 CST 2023","2641","test_case","test_baidu","TestBaidu","","","test_baidu_006[id-search_key0]",""
+"passed","Wed Feb 01 11:00:01 CST 2023","Wed Feb 01 11:00:04 CST 2023","2775","","pytest","","test_case.test_baidu.TestBaidu","","test_baidu_002",""
+"passed","Wed Feb 01 11:00:19 CST 2023","Wed Feb 01 11:00:22 CST 2023","2440","test_case","test_baidu","TestBaidu","","","test_baidu_006[id-search_key1]",""
+"passed","Wed Feb 01 11:00:01 CST 2023","Wed Feb 01 11:00:03 CST 2023","2346","","pytest","","test_case.test_baidu.TestBaidu","","test_baidu_004[case1]",""
+"passed","Wed Feb 01 11:00:03 CST 2023","Wed Feb 01 11:00:06 CST 2023","3011","test_case","test_baidu","TestBaidu","","","test_baidu_001","
+        名称：百度搜索""playwright""
+        步骤：
+        1、打开浏览器
+        2、输入""playwright""关键字
+        3、点击搜索按钮
+        检查点：
+        * 检查页面标题是否相等。
+        "
+"passed","Wed Feb 01 11:00:09 CST 2023","Wed Feb 01 11:00:09 CST 2023","328","test_case","test_baidu","TestBaidu","","","test_baidu_003",""
+"passed","Wed Feb 01 11:00:11 CST 2023","Wed Feb 01 11:00:14 CST 2023","2785","test_case","test_baidu","TestBaidu","","","test_baidu_004[case2]",""
+"passed","Wed Feb 01 11:00:01 CST 2023","Wed Feb 01 11:00:01 CST 2023","329","","pytest","","test_case.test_baidu.TestBaidu","","test_baidu_003",""
+"passed","Wed Feb 01 11:00:01 CST 2023","Wed Feb 01 11:00:03 CST 2023","2643","","pytest","","test_case.test_baidu.TestBaidu","","test_baidu_006[id-search_key0]",""
+"passed","Wed Feb 01 11:00:01 CST 2023","Wed Feb 01 11:00:04 CST 2023","3387","","pytest","","test_case.test_baidu.TestBaidu","","test_baidu_006[id-search_key1]",""
+"passed","Wed Feb 01 11:00:14 CST 2023","Wed Feb 01 11:00:16 CST 2023","2440","test_case","test_baidu","TestBaidu","","","test_baidu_004[case3]",""
+"passed","Wed Feb 01 11:00:06 CST 2023","Wed Feb 01 11:00:09 CST 2023","2774","test_case","test_baidu","TestBaidu","","","test_baidu_002","
+        名称：百度搜索设置
+        步骤：
+        1、打开百度浏览器
+        2、点击设置链接
+        3、在下拉框中""选择搜索""
+        4、点击""保存设置""
+        5、对弹出警告框保存
+        检查点：
+        * 检查是否弹出提示框
+        "
+"passed","Wed Feb 01 11:00:01 CST 2023","Wed Feb 01 11:00:05 CST 2023","4447","","pytest","","test_case.test_baidu.TestBaidu","","test_baidu_001",""
